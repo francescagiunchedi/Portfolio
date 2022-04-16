@@ -5,6 +5,7 @@
   --text-font: "Hind Madurai", sans-serif;
   --primary-color-alpha: rgba(72, 214, 210, 0.1);
   --secondary-color: #f8f9fa;
+  --letter-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 body {
@@ -28,6 +29,47 @@ p {
   font-size: 15px;
 }
 
+.content-setup {
+  margin-top: 50px;
+}
+
+.content-setup a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.content-setup a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.content-setup h2 {
+  font-family: var(--undertitle-font);
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.title-page {
+  text-align: center;
+  color: var(--primary-color);
+  padding: 20px 0;
+  margin-bottom: 100px;
+  
+}
+
+.text-shadow {
+  text-shadow: var(--letter-shadow);
+}
+
+.img-border {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
 .nav-bar-text {
   font-family: var(--title-font);
 }
@@ -38,6 +80,7 @@ p {
   color: var(--primary-color);
   font-weight: bold;
 }
+
 .homepage {
   margin-top: 50px;
   color: var(--secondary-color);
