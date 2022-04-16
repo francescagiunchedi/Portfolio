@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #48d6d2;
+  --title-font: "Montserrat", sans-serif;
+  --undertitle-font: "Lora", serif;
+  --text-font: "Hind Madurai", sans-serif;
+  --primary-color-alpha: rgba(72, 214, 210, 0.1);
+  --secondary-color: #f8f9fa;
+  --letter-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: rgb(63, 63, 63);
+  height: 100%;
+}
+h1 {
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+h2 {
+  font-family: var(--undertitle-font);
+  font-style: italic;
+  font-size: 30px;
+  line-height: 40px;
+}
+p {
+  font-family: var(--text-font);
+  font-size: 15px;
+}
+
+.content-setup {
+  margin-top: 50px;
+}
+
+.content-setup a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(63, 63, 63);
+}
+
+.content-setup a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: rgb(63, 63, 63);
+}
+
+.content-setup h2 {
+  font-family: var(--undertitle-font);
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-size: 33spx;
+  color: var(--primary-color);
+}
+.content-setup img {
+  border-radius: 10px;
+}
+
+.title-page {
+  text-align: center;
+  color: var(--primary-color);
+  padding: 20px 0;
+  margin-bottom: 100px;
+}
+
+.text-shadow {
+  text-shadow: var(--letter-shadow);
+}
+
+.img-border {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-bar-text {
+  font-family: var(--title-font);
+}
+.nav-bar-color {
+  color: var(--primary-color);
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.homepage {
+  margin-top: 50px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 200px 0;
+  clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+.about {
+  margin-top: 100px;
+}
+.about h1 {
+  color: var(--primary-color);
+  text-shadow: var(--letter-shadow);
+}
+
+@media (max-width: 825px) {
+  h1 {
+    font-family: var(--title-font);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 45px;
+  }
+  h2 {
+    font-family: var(--undertitle-font);
+    font-style: italic;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  p {
+    font-family: var(--text-font);
+    font-size: 15px;
+  }
+  .container-fluid {
+    text-align: center;
+  }
+  .homepage {
+    margin-top: 0px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 150px 0;
+    clip-path: polygon(75% 0, 100% 0, 100% 85%, 0 100%, 0% 15%);
+  }
+}
