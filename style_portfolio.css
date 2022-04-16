@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #48d6d2;
+  --title-font: "Montserrat", sans-serif;
+  --undertitle-font: "Lora", serif;
+  --text-font: "Hind Madurai", sans-serif;
+  --primary-color-alpha: rgba(72, 214, 210, 0.1);
+  --secondary-color: #f8f9fa;
+}
