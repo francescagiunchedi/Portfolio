@@ -3,7 +3,7 @@
   --title-font: "Montserrat", sans-serif;
   --undertitle-font: "Lora", serif;
   --text-font: "Hind Madurai", sans-serif;
-  --primary-color-alpha: rgba(72, 214, 210, 0.1);
+  --primary-color-alpha: rgba(72, 214, 210, 0.3);
   --secondary-color: #f8f9fa;
   --letter-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -58,22 +58,6 @@ p {
   border-radius: 10px;
 }
 
-.title-page {
-  text-align: center;
-  color: var(--primary-color);
-  padding: 20px 0;
-  margin-bottom: 100px;
-}
-
-.text-shadow {
-  text-shadow: var(--letter-shadow);
-}
-
-.img-border {
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
 .nav-bar-text {
   font-family: var(--title-font);
 }
@@ -85,14 +69,12 @@ p {
   font-weight: bold;
 }
 
-.homepage {
+.border-color {
+  padding: 50px 70px;
   margin-top: 50px;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  padding: 200px 0;
-  clip-path: polygon(0 25%, 100% 0%, 100% 75%, 0% 100%);
+  border: 2px solid var(--primary-color-alpha);
+  border-radius: 10px;
 }
-
 .about {
   margin-top: 100px;
 }
@@ -120,12 +102,5 @@ p {
   }
   .container-fluid {
     text-align: center;
-  }
-  .homepage {
-    margin-top: 0px;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: 150px 0;
-    clip-path: polygon(75% 0, 100% 0, 100% 85%, 0 100%, 0% 15%);
   }
 }
