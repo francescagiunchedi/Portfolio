@@ -143,6 +143,18 @@ footer {
   border-color: var(--secondary-color);
   box-shadow: var(--letter-shadow);
 }
+.inquiry-box{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.inquiry-box .button{
+  margin: 0 auto;
+  display: flex;
+  margin-top: 13px;
+  align-content: center;
+}
 .background-box{
   max-width: 75%;
   padding: 45px 20px;
@@ -171,6 +183,11 @@ footer {
     font-family: var(--text-font);
     font-size: 15px;
   }
+
+  footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
   .container-fluid {
     text-align: center;
   }
@@ -181,4 +198,18 @@ footer {
     padding: 150px 0;
     clip-path: polygon(75% 0, 100% 0, 100% 85%, 0 100%, 0% 15%);
   }
+
+  .inquiry-box{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.inquiry-box .button{
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  align-content: center;
+}
 }
