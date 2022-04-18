@@ -3,7 +3,7 @@
   --title-font: "Montserrat", sans-serif;
   --undertitle-font: "Lora", serif;
   --text-font: "Hind Madurai", sans-serif;
-  --primary-color-alpha: rgba(72, 214, 210, 0.1);
+  --primary-color-alpha: rgba(72, 214, 210, 0.2);
   --secondary-color: #f8f9fa;
   --letter-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
@@ -31,7 +31,8 @@ p {
 }
 
 footer {
-  margin: 50px 0;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
 
 .content-setup {
@@ -103,6 +104,8 @@ footer {
   color: var(--primary-color);
   text-shadow: var(--letter-shadow);
 }
+
+/* work inquiry part */
 .mail a {
   color: rgb(63, 63, 63);
   font-size: 18px;
@@ -125,19 +128,31 @@ footer {
   color: var(--primary-color);
 }
 .button {
+  
   text-decoration: none;
   font-weight: bold;
   padding: 15px 25px;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
   border-radius: 10px;
 }
 .button:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
   border-color: var(--secondary-color);
+  box-shadow: var(--letter-shadow);
 }
+.background-box{
+  max-width: 75%;
+  padding: 45px 20px;
+  background-color: var(--primary-color-alpha);
+  border-radius: 8px;
+}
+.background-box h2{
+  text-shadow: var(--letter-shadow);
+}
+
 
 @media (max-width: 825px) {
   h1 {
